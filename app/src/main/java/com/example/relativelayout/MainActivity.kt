@@ -15,5 +15,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(applicationContext, LoginActivity::class.java)
             startActivity(intent)
         }
+
+        val cardHome = findViewById<CardView>(R.id.cardHome)
+        cardHome.setOnClickListener {
+            val intent = Intent(applicationContext, BottomNavigation::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }
