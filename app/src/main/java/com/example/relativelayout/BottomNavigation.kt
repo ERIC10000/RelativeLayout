@@ -18,12 +18,10 @@ class BottomNavigation : AppCompatActivity() {
 
                 R.id.bottom_home -> {
                     replaceFragment(HomeFragment())
-                    true
                 }
 
                 R.id.bottom_search -> {
                     replaceFragment(SearchFragment())
-                    true
                 }
 
                 R.id.bottom_add -> {
@@ -33,20 +31,24 @@ class BottomNavigation : AppCompatActivity() {
 
                 R.id.bottom_reels -> {
                     replaceFragment(ReelsFragment())
-                    true
                 }
 
                 R.id.bottom_profile -> {
                     replaceFragment(ProfileFragment())
-                    true
                 }
 
-                else -> false
-
             } // end when
+            true
         }
-
         replaceFragment(HomeFragment())
+
+//        bottomNavigation.getOrCreateBadge(R.id.bottom_reels).apply {
+//            number = 5
+//            isVisible = true
+//        }
+
+
+
 
     }// end onCreate
 

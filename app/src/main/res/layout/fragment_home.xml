@@ -5,13 +5,31 @@
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Home Fragment"
-        android:textSize="36sp"
-        android:textColor="@color/blue"
-        android:gravity="center"/>
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/custom_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/background_actionbar"
+            android:elevation="8dp"
+            android:title="Medilab App"
+            android:titleTextColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Home Fragment"
+            android:textSize="36sp"
+            android:textColor="@color/blue"
+            android:gravity="center"/>
+
+
+
+    </RelativeLayout>
+
+
 
 </FrameLayout>

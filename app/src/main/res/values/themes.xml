@@ -18,4 +18,8 @@
         <item name="android:color">@color/yellow</item>
     </style>
 
+    <style name="AppTheme" parent="Theme.Design.NoActionBar">
+
+    </style>
+
 </resources>

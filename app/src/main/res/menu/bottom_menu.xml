@@ -18,7 +18,8 @@
     <item
         android:id="@+id/bottom_reels"
         android:title=""
-        android:icon="@drawable/baseline_movie_filter_24"/>
+        android:icon="@drawable/baseline_shopping_cart_24"/>
+
 
     <item
         android:id="@+id/bottom_profile"

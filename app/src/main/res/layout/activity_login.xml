@@ -59,14 +59,35 @@
                 android:textColorHint="@color/cardview_dark_background"
                 android:layout_marginTop="20dp"/>
 
+<!--            <Spinner-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/spinner"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:background="@drawable/bottom"-->
+<!--                android:spinnerMode="dialog"-->
+<!--                android:popupBackground="@color/blue"-->
+<!--                android:paddingStart="16dp"-->
+<!--                android:paddingEnd="16dp"/>-->
+
+
+
             <Spinner
+                android:id="@+id/spinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/spinner"
-                android:layout_marginTop="15dp"/>
+                android:background="@drawable/button"
+                android:textColor="@color/white"
+                android:spinnerMode="dialog"
+                android:popupBackground="@color/blue"
+                android:drawableEnd="@drawable/spinner_arrow"
+                android:layout_marginTop="15dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp" />
 
 
-           <Button
+
+            <Button
                 android:id="@+id/loginButton"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
