@@ -31,6 +31,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val cardWidgets = findViewById<CardView>(R.id.cardWidgets)
+        cardWidgets.setOnClickListener {
+            val intent = Intent(applicationContext, RecylerActivity::class.java)
+            startActivity(intent)
+        }
+
 
     }
 

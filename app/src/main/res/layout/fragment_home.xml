@@ -13,7 +13,7 @@
             android:id="@+id/custom_toolbar"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:background="@drawable/background_actionbar"
+            android:background="#0FFFFF"
             android:elevation="8dp"
             android:title="Medilab App"
             android:titleTextColor="@android:color/black"/>
